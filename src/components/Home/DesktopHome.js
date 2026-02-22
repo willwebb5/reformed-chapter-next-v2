@@ -594,7 +594,7 @@ function App() {
           flexDirection: "column"
         }}
       >
-        <h2 style={{ marginTop: 0, color: "black" }}>
+        <h2 style={{ marginTop: 0, color: "black", fontFamily:"Georgia" }}>
           {title} ({totalItems})
         </h2>
         {loading ? (

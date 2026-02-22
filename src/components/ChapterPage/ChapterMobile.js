@@ -288,7 +288,7 @@ function ChapterMobile({ book, chapter }) {
               {title}
             </a>
           ) : (
-            <h4 style={{ margin: 0, fontSize: "1rem", fontWeight: "600", color: "#333" }}>
+            <h4 style={{ margin: 0, fontSize: "1rem", fontWeight: "600", color: "#333", }}>
               {title}
             </h4>
           )}
@@ -445,5 +445,5 @@ function ChapterMobile({ book, chapter }) {
     </div>
   );
 }
-///hi
+
 export default ChapterMobile;

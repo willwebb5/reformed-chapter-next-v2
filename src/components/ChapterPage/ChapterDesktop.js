@@ -409,16 +409,16 @@ function ChapterDesktop({ book, chapter }) {
     return (
       <section
         style={{
-          width: "100%",
-          border: "1px solid #cccccc",
-          borderRadius: "8px",
-          padding: "1rem",
-          marginBottom: "1.5rem",
-          backgroundColor: "#f9f9f9",
-          flexDirection: "column"
-        }}
+        width: "100%",
+        border: "1px solid #cccccc",
+        borderRadius: "8px",
+        padding: "0.5rem 1rem 1.5rem",  // less top, more bottom
+        marginBottom: "1.5rem",
+        backgroundColor: "#f9f9f9",
+        flexDirection: "column"
+      }}
       >
-        <h2 style={{ marginTop: 0, color: "#000000" }}>
+        <h2 style={{ marginTop: 0, color: "#000000", fontFamily: "Georgia, serif", marginBottom: 10 }}>
           {title} ({totalItems})
         </h2>
         {loading ? (

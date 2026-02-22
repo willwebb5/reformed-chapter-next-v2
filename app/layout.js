@@ -4,15 +4,29 @@ import './globals.css'
 import Script from 'next/script'
 
 export const metadata = {
-  title: 'Reformed Chapter',
-  description: 'Bible study resources organized by chapter',
+  title: 'Reformed Chapter | Bible Resources by Chapter',
+  description: 'Explore Reformed sermons, commentaries, and articles organized by Bible chapter.',
+  openGraph: {
+    type: 'website',
+    siteName: 'Reformed Chapter',
+    title: 'Reformed Chapter | Bible Resources by Chapter',
+    description: 'Explore Reformed sermons, commentaries, and articles organized by Bible chapter.',
+    url: 'https://www.reformedchapter.com',
+    images: [
+      {
+        url: '/preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'Reformed Chapter',
+      }
+    ],
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-white">
-    
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"

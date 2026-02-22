@@ -1,8 +1,8 @@
 import About from '@/components/About'
 
 export const metadata = {
-  title: 'About - Reformed Chapter',
-  description: 'Learn about Reformed Chapter and our mission',
+  title: 'About Us - Reformed Chapter',
+  description: 'Learn about Reformed Chapter, a Bible study resource hub for Reformed Christians organized by chapter.',
 }
 
 export default function AboutPage() {
